@@ -54,3 +54,54 @@ function Resdiente(){
     localStorage.setItem('ImagemJogo','../HomePage-Front/images/resident evil.jpg')
     localStorage.setItem('NomeJogo',"Residente Evil 4")
 }
+
+
+const CondicionalGodOfWar  = localStorage.getItem('CondicionalGodOfWar') 
+const CondicionalHomemAranha = localStorage.getItem('CondicionalHomemAranha') 
+const CondicionalAssassin = localStorage.getItem('CondicionalAssassin') 
+const CondicionalTheLastOfUs = localStorage.getItem('CondicionalTheLast') 
+const CondicionalFIFA = localStorage.getItem('CondicionalFIFA') 
+const CondicionalRedDead = localStorage.getItem('CondicionalRedDead') 
+const CondicionalGTA = localStorage.getItem('CondicionalGta') 
+const CondicionalResident = localStorage.getItem('CondicionalResident') 
+
+
+let valorCarinho = 0
+
+
+const cartCount = document.getElementById('cartCount');
+
+// Define o novo valor para o conteúdo do <span>
+if(CondicionalGodOfWar){
+    valorCarinho +=1;
+    localStorage.setItem('CondicionalGodOfWar',false)
+}
+
+if(CondicionalHomemAranha){
+    valorCarinho +=1;
+}
+
+if(CondicionalAssassin){
+    valorCarinho +=1;
+}
+
+if(CondicionalTheLastOfUs){
+    valorCarinho +=1;
+}
+
+if(CondicionalFIFA){
+    valorCarinho +=1;
+}
+
+if(CondicionalRedDead){
+    valorCarinho +=1;
+}
+
+if(CondicionalGTA){
+    valorCarinho +=1;
+}
+
+if(CondicionalResident){
+    valorCarinho +=1;
+}
+cartCount.textContent = '5'; // Defina o valor desejado aqui

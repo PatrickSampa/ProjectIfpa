@@ -117,27 +117,35 @@ var valorTotal = valorInput*valor;
 if(godOfWarImage == '../HomePage-Front/images/good of war.jpeg'){
   localStorage.setItem('valorTotalGodOf', valorTotal)
   localStorage.setItem('ProdutoGodOfWar', 1)
+  localStorage.setItem('CondicionalGodOfWar',true)
 }else if(godOfWarImage=='../HomePage-Front/images/Homem aranha.jpg'){
   localStorage.setItem('valorTotalHomemAranha', valorTotal)
   localStorage.setItem('ProdutoHomemAranha', 1)
+  localStorage.setItem('CondicionalHomemAranha',true)
 }else if(godOfWarImage=='../HomePage-Front/images/assassin screed.jpg'){
   localStorage.setItem('valorTotalAssassin', valorTotal)
   localStorage.setItem('ProdutoAssassin', 1)
+  localStorage.setItem('CondicionalAssassin',true)
 }else if(godOfWarImage=='../HomePage-Front/images/the last of us.jpeg'){
   localStorage.setItem('valorTotalTheLast', valorTotal)
   localStorage.setItem('ProdutoGodTheLast', 1)
+  localStorage.setItem('CondicionalTheLast',true)
 }else if(godOfWarImage=='../HomePage-Front/images/fifa.jpg'){
   localStorage.setItem('valorTotalFifa', valorTotal)
   localStorage.setItem('ProdutoFifa', 1)
+  localStorage.setItem('CondicionalFIFA',true)
 }else if(godOfWarImage=='../HomePage-Front/images/red dead.jpg'){
   localStorage.setItem('valorTotalRedDead', valorTotal)
   localStorage.setItem('ProdutoRedDead', 1)
+  localStorage.setItem('CondicionalRedDead',true)
 }else if(godOfWarImage=='../HomePage-Front/images/gta.jpg'){
   localStorage.setItem('valorTotalGta', valorTotal)
   localStorage.setItem('ProdutoGta', 1)
+  localStorage.setItem('CondicionalGta',true)
 }else if(godOfWarImage=='../HomePage-Front/images/resident evil.jpg'){
   localStorage.setItem('valorTotalResident', valorTotal)
   localStorage.setItem('ProdutoResident', 1)
+  localStorage.setItem('CondicionalResident',true)
 }
 window.location.href = '../HomePage-Front/Front-home.html';
 };
