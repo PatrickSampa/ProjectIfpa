@@ -68,7 +68,6 @@ const CondicionalResident = localStorage.getItem('CondicionalResident')
 
 let valorCarinho = 0
 
-
 const cartCount = document.getElementById('cartCount');
 
 // Define o novo valor para o conteúdo do <span>
@@ -112,6 +111,6 @@ if(CondicionalResident){
     localStorage.setItem('CondicionalResident',false)
 }
 
-
+console.log(valorCarinho)
 
 cartCount.textContent = valorCarinho; // Defina o valor desejado aqui
