@@ -15,3 +15,14 @@ const gameImage = document.getElementById('gameImage');
 
   // Define o valor do atributo src da imagem
   gameImage.src = godOfWarImage;
+
+
+
+
+  const gameTitleElement = document.getElementById('gameTitle');
+
+  // Obtém o valor do localStorage
+  const gameTitle = localStorage.getItem('NomeJogo');
+
+  // Define o conteúdo do elemento
+  gameTitleElement.textContent = gameTitle;
