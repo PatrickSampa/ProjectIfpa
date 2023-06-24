@@ -29,7 +29,7 @@ const gameImage = document.getElementById('gameImage');
   gameTitleElement.textContent = gameTitle;
 
 //definir o valor de cada produto  
-let valor = 0;
+/* let valor = 0;
 if(godOfWarImage=='../HomePage-Front/images/good of war.jpeg'){
   valor = 80
 }else if(godOfWarImage=='../HomePage-Front/images/Homem aranha.jpg'){
@@ -80,7 +80,7 @@ if(godOfWarImage == '../HomePage-Front/images/good of war.jpeg'){
   localStorage.setItem('valorTotalResident', valorTotal)
   localStorage.setItem('ProdutoResident', 1)
 }
-
+ */
 
 // Obtém o elemento do botão
 const button = document.querySelector('.btn-outline-dark');
