@@ -79,29 +79,39 @@ if(CondicionalGodOfWar){
 
 if(CondicionalHomemAranha){
     valorCarinho +=1;
+    localStorage.setItem('CondicionalHomemAranha',false)
 }
 
 if(CondicionalAssassin){
     valorCarinho +=1;
+    localStorage.setItem('CondicionalAssassin',false)
 }
 
 if(CondicionalTheLastOfUs){
     valorCarinho +=1;
+    localStorage.setItem('CondicionalTheLast',false)
 }
 
 if(CondicionalFIFA){
     valorCarinho +=1;
+    localStorage.setItem('CondicionalFIFA',false)
 }
 
 if(CondicionalRedDead){
     valorCarinho +=1;
+    localStorage.setItem('CondicionalRedDead',false)
 }
 
 if(CondicionalGTA){
     valorCarinho +=1;
+    localStorage.setItem('CondicionalGta',false)
 }
 
 if(CondicionalResident){
     valorCarinho +=1;
+    localStorage.setItem('CondicionalResident',false)
 }
-cartCount.textContent = '5'; // Defina o valor desejado aqui
+
+
+
+cartCount.textContent = valorCarinho; // Defina o valor desejado aqui
