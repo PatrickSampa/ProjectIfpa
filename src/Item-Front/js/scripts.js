@@ -19,6 +19,17 @@ const gameImage = document.getElementById('gameImage');
 
 
 
+  
+  var valorJogo = localStorage.getItem('ValorJogo');
+
+  
+  const valor = document.getElementById('valorJogo');
+
+  valor.textContent = valorJogo
+  console.log(valorJogo)
+
+
+
 
   const gameTitleElement = document.getElementById('gameTitle');
 
