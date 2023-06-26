@@ -122,7 +122,7 @@ async function EnviarSms(numero){
 
     return axios.post('http://localhost:3030/send', {
             
-                message: `Compra Realizada com sucesso!\n O Pedido logo sairá da nossa transportadora e irá até você\nTotal do Pedido: R$${ArmazenarValorComFreteIncluido},00`, 
+                message: `Compra Realizada com sucesso!\nO Pedido logo sairá da nossa transportadora e irá até você.\nTotal do Pedido: R$${ArmazenarValorComFreteIncluido},00.`, 
                 number: numero    
           
       })
