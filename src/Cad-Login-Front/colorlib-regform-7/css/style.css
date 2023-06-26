@@ -590,3 +590,15 @@ label.valid {
     margin-bottom: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+#hidden-paragraph {
+  display: none;
+  margin-left: 90px; 
+}
+
+#hidden-paragraphh {
+  display: none;
+  margin-left: 90px; 
+}

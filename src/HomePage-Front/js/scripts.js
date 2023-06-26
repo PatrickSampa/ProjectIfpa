@@ -6,6 +6,16 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
+document.getElementById('carrinho').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita o envio padrão do formulário
+    window.location.href = '../Finalizar-compra/finalizarCompra.html';
+  });
+
+
+
+
+
+
 function GodOfWar(){
     console.log("localstorage")
     localStorage.setItem('ImagemJogo','../HomePage-Front/images/good of war.jpeg')
@@ -121,3 +131,12 @@ if(CondicionalResident){
 console.log(valorCarinho)
 
 cartCount.textContent = valorCarinho; // Defina o valor desejado aqui
+
+
+
+
+
+
+
+
+

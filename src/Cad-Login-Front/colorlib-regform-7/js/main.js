@@ -1,6 +1,6 @@
 // Obtém o formulário pelo ID
 const form = document.getElementById('login-form');
-
+const hiddenParagraph = document.getElementById('hidden-paragraph');
 
 
 
@@ -27,8 +27,10 @@ form.addEventListener('submit', async function(event) {
  console.log(result.status)
 if(!result.status){
   console.log("errou")
+  hiddenParagraph.style.display = 'block';
   //mensagem erro
 }else{
+  
   window.location.href = '../../HomePage-Front/front-home.html';
 }
 
