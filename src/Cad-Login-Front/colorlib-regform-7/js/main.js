@@ -1,6 +1,11 @@
 // Obtém o formulário pelo ID
 const form = document.getElementById('login-form');
 
+
+
+
+
+
 // Adiciona um evento de escuta ao evento de submit do formulário
 form.addEventListener('submit', async function(event) {
   event.preventDefault(); // Evita que o formulário seja enviado
